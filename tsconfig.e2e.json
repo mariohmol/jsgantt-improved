@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "outDir": "./dist-e2e",
+    "skipLibCheck": true,
+    "noEmitOnError": false
+  },
+  "include": [
+    "test/e2e/**/*.ts"
+  ]
+}
